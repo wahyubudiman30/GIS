@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/TxResetEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textPersonName"/>
+
+
+    <EditText
+        android:id="@+id/TxResetPassLama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password Saat Ini"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/TxResetEmail"/>
+
+    <EditText
+        android:id="@+id/TxResetPassBaru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password Baru"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/TxResetPassLama"/>
+
+    <EditText
+        android:id="@+id/TxResetConPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Konfirmasi Password Baru"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/TxResetPassBaru"/>
+
+</RelativeLayout>

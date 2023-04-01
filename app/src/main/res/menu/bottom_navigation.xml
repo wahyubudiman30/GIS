@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_posko"
+        android:icon="@drawable/posko"
+        android:title="Posko"/>
+    <item
+        android:id="@+id/nav_evakuasi"
+        android:icon="@drawable/ev"
+        android:title="Evakuasi"/>
+    <item
+        android:id="@+id/nav_informasi"
+        android:icon="@drawable/nfo"
+        android:title="Informasi"/>
+</menu>

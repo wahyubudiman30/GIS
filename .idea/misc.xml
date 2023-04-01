@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/drawable/ic_edit.xml" value="0.1395" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/drawable/ic_email.xml" value="0.1395" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/drawable/ic_name.xml" value="0.1395" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/drawable/ic_save.xml" value="0.1395" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_about.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.22704081632653061" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_dashboard_user.xml" value="0.22" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_dashboard_usr.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_detail_akun.xml" value="0.25" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_dsboard.xml" value="0.22" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_galeri.xml" value="0.22" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_hal_utama_user.xml" value="0.2" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_maps_admin.xml" value="0.14" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_pengungsian.xml" value="0.22" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_profil.xml" value="0.49471458773784355" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_resetpass.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_tambahadmin.xml" value="0.22" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_tambahakun.xml" value="0.33" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_tambahdata.xml" value="0.22" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_tambahgaleri.xml" value="0.25" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_tampil_lokasi.xml" value="0.25" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_tampil_lokasi_user.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_ubah_profil.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_ubahpass.xml" value="0.33" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_ubahprofil.xml" value="0.33" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/activity_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/fragment_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/fragment_info.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/fragment_peta.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/fragment_posko.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/list_item.xml" value="0.33" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/list_item2.xml" value="0.1" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/layout/resetpass_activity.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/menu/bottom_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/menu/menu_action.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wahyu/AndroidStudioProjects/EvakuasiBencana/app/src/main/res/menu/menu_actn.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Wahyu/Downloads/Evakuasi_Bencana-main/app/src/main/res/layout/activity_about.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Wahyu/Downloads/Evakuasi_Bencana-main/app/src/main/res/layout/activity_contact.xml" value="0.33" />
+        <entry key="..\:/Users/Wahyu/Downloads/Evakuasi_Bencana-main/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.5" />
+        <entry key="..\:/Users/Wahyu/Downloads/Evakuasi_Bencana-main/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Wahyu/Downloads/Evakuasi_Bencana-main/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Wahyu/Downloads/Evakuasi_Bencana-main/app/src/main/res/layout/activity_pengungsian.xml" value="0.33" />
+        <entry key="..\:/Users/Wahyu/Downloads/Evakuasi_Bencana-main/app/src/main/res/layout/activity_profil.xml" value="0.33" />
+        <entry key="..\:/Users/Wahyu/Downloads/Evakuasi_Bencana-main/app/src/main/res/layout/activity_tambahakun.xml" value="0.2" />
+        <entry key="..\:/Users/Wahyu/Downloads/Evakuasi_Bencana-main/app/src/main/res/layout/activity_tambahdata.xml" value="0.25" />
+        <entry key="..\:/Users/Wahyu/Downloads/Evakuasi_Bencana-main/app/src/main/res/layout/activity_tampil_lokasi.xml" value="0.25" />
+        <entry key="..\:/Users/Wahyu/Downloads/Evakuasi_Bencana-main/app/src/main/res/layout/activity_ubahprofil.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TampilLokasiActivity">
+
+  <ImageView
+      android:id="@+id/imageView7"
+      android:layout_width="386dp"
+      android:layout_height="101dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.503"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      app:srcCompat="@drawable/atstampllokas" />
+
+  <ImageView
+      android:id="@+id/imageView28"
+      android:layout_width="380dp"
+      android:layout_height="621dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.419"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView7"
+      app:layout_constraintVertical_bias="0.0"
+      app:srcCompat="@drawable/ktkedprofl" />
+
+  <Button
+      android:id="@+id/BtnUpdate"
+      android:layout_width="160dp"
+      android:layout_height="45dp"
+      android:text="UPDATE"
+      app:layout_constraintBottom_toBottomOf="parent"
+
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.852"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.982" />
+
+  <Button
+      android:id="@+id/BtnHapus"
+      android:layout_width="160dp"
+      android:layout_height="45dp"
+      android:text="HAPUS"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+
+      app:layout_constraintHorizontal_bias="0.135"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.981" />
+
+  <EditText
+      android:id="@+id/TampilID"
+      android:layout_width="352dp"
+      android:layout_height="43dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:textColor="#000000"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.593"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.286" />
+
+  <EditText
+      android:id="@+id/TampilNama"
+      android:layout_width="352dp"
+      android:layout_height="43dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:textColor="#000000"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.593"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.377" />
+
+  <EditText
+      android:id="@+id/TampilAlamat"
+      android:layout_width="352dp"
+      android:layout_height="43dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:textColor="#000000"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.593"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.479" />
+
+  <EditText
+      android:id="@+id/TampilKelurahan"
+      android:layout_width="352dp"
+      android:layout_height="43dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:textColor="#000000"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.593"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.584" />
+
+  <TextView
+      android:id="@+id/textView64"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Longitude"
+      android:textColor="@color/black"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.1"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.834" />
+
+  <EditText
+      android:id="@+id/TampilLatitude"
+      android:layout_width="352dp"
+      android:layout_height="43dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:textColor="#000000"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.593"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.787" />
+
+  <TextView
+      android:id="@+id/textView63"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Latitude"
+      android:textColor="@color/black"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.097"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.734" />
+
+  <TextView
+      android:id="@+id/textView62"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Kecamatan"
+      android:textColor="@color/black"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.103"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.636" />
+
+  <EditText
+      android:id="@+id/TampilKecamatan"
+      android:layout_width="352dp"
+      android:layout_height="43dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:textColor="#000000"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.593"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.686" />
+
+  <EditText
+      android:id="@+id/TampilLongitude"
+      android:layout_width="352dp"
+      android:layout_height="43dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:textColor="#000000"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.593"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.89" />
+
+  <TextView
+      android:id="@+id/textView59"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Nama Lokasi"
+      android:textColor="@color/black"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.106"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.337" />
+
+  <TextView
+      android:id="@+id/textView60"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Alamat"
+      android:textColor="@color/black"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.095"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.436" />
+
+  <TextView
+      android:id="@+id/textView61"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Kelurahan"
+      android:textColor="@color/black"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.101"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.537" />
+
+  <TextView
+      android:id="@+id/idlok"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ID"
+      android:textColor="@color/black"
+      android:textColorHint="#FFFFFF"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.087"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.25" />
+
+  <TextView
+      android:id="@+id/id3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="POSKO PENGUNGSIAN"
+      android:textColor="@color/white"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.496"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.055" />
+
+  <TextView
+      android:id="@+id/textView13"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="DETAIL LOKASI"
+      android:textColor="@color/black"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+      app:layout_constraintEnd_toEndOf="@+id/imageView28"
+      app:layout_constraintHorizontal_bias="0.509"
+      app:layout_constraintStart_toStartOf="@+id/imageView28"
+      app:layout_constraintTop_toBottomOf="@+id/imageView7"
+      app:layout_constraintVertical_bias="0.056" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
