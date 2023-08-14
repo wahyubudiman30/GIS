@@ -2,7 +2,7 @@ package com.wahyu.evakuasibencana;
 
 public class DbContract {
 
-    public static final String ROOT_URL = "http://192.168.1.27/ApiEvakuasiBencana/";
+    public static final String ROOT_URL = "http://192.168.1.13/ApiEvakuasiBencana/";
     public static String SERVER_LOGIN_URL = ROOT_URL+"checkLogin.php";
     public static String SERVER_REGISTER_URL = ROOT_URL+"createData.php";
     public static String SERVER_READ_URL = ROOT_URL+"lihatProfil.php";
@@ -16,19 +16,6 @@ public class DbContract {
     public static String URL_GET_EMP = ROOT_URL+"tampilLokasi.php?id=";
     public static String URL_UPDATE_EMP = ROOT_URL+"ubahLokasi.php";
     public static String URL_DELETE_EMP = ROOT_URL+"hapusLokasi.php?id=";
-
-
-    //public static final String SERVER_LOGIN_URL = "http://192.168.1.12/ApiEvakuasiBencana/checkLogin.php";
-    //public static final String SERVER_REGISTER_URL = "http://192.168.1.12/ApiEvakuasiBencana/createData.php";
-    //public static final String URL_READ = "http://192.168.1.12/ApiEvakuasiBencana/read_detail.php";
-    //public static final String URL_EDIT = "http://192.168.1.12/ApiEvakuasiBencana/edit_detail.php";
-    //public static final String URL_UPLOAD = "http://192.168.1.12/ApiEvakuasiBencana/upload.php";
-
-    //public static final String URL_ADD="http://192.168.1.12/ApiEvakuasiBencana/tambahLokasi.php";
-    //public static final String URL_GET_ALL = "http://192.168.1.12/ApiEvakuasiBencana/tampilSemuaLokasi.php";
-    //public static final String URL_GET_EMP = "http://192.168.1.12/ApiEvakuasiBencana/tampilLokasi.php?id=";
-    //public static final String URL_UPDATE_EMP = "http://192.168.1.12/ApiEvakuasiBencana/ubahLokasi.php";
-    //public static final String URL_DELETE_EMP = "http://192.168.1.12/ApiEvakuasiBencana/hapusLokasi.php?id=";
 
     public static final String URL_GET_EMP_ADM = "http://192.168.1.27/ApiEvakuasiBencana/tampilAdmin.php?id=";
     public static final String URL_UPDATE_EMP_ADM = "http://192.168.1.27/ApiEvakuasiBencana/ubahAdmin.php";
@@ -71,4 +58,5 @@ public class DbContract {
     public static final String TAG_JABATAN_ADM = "jabatan";
     public static final String TAG_ALAMAT_ADM = "alamat";
     public static final String EMP_ID_ADM = "emp_id_adm";
+
 }

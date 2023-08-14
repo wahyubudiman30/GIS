@@ -14,20 +14,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        BtnPengguna = (Button) findViewById(R.id.BtnPengguna);
-
-        BtnPengguna.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent= new Intent(MainActivity.this, DashboardUserActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 
     public void LoginAdm(View view) {
         Intent LogAdm = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(LogAdm);
+    }
+
+    public void Adm(View view) {
+        Intent Adm = new Intent(MainActivity.this, DashboardAdminActivity.class);
+        startActivity(Adm);
+    }
+
+    public void LoginUser(View view) {
+        Intent intent= new Intent(MainActivity.this, DashboardUserActivity.class);
+        startActivity(intent);
     }
 }

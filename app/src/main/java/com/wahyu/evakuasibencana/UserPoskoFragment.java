@@ -1,15 +1,21 @@
 package com.wahyu.evakuasibencana;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ListView;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
+import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 import org.json.JSONArray;
@@ -19,16 +25,25 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class PengungsianActivity extends AppCompatActivity implements ListView.OnItemClickListener {
+public class UserPoskoFragment extends Fragment {
+
     private ListView listView;
     private String JSON_STRING;
 
+    @Nullable
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pengungsian);
-        listView = (ListView) findViewById(R.id.listView);
-        listView.setOnItemClickListener(this);
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view=inflater.inflate(R.layout.list_itemuser,container,false);
+        return view;
+    }
+
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        listView = (ListView) view.findViewById(R.id.listView2);
+        listView.setOnItemClickListener((AdapterView.OnItemClickListener) this);
         getJSON();
     }
     private void showEmployee(){
@@ -42,29 +57,21 @@ public class PengungsianActivity extends AppCompatActivity implements ListView.O
                 JSONObject jo = result.getJSONObject(i);
                 String id = jo.getString(DbContract.TAG_ID);
                 String name = jo.getString(DbContract.TAG_NAMA);
-                //String alamat = jo.getString(DbContract.TAG_ALAMAT);
-                //String kecamatan = jo.getString(DbContract.TAG_KECAMATAN);
-                //String kelurahan = jo.getString(DbContract.TAG_KELURAHAN);
-                //String latitude = jo.getString(DbContract.TAG_LATITUDE);
-                //String longitude = jo.getString(DbContract.TAG_LONGITUDE);
+                String alamat = jo.getString(DbContract.TAG_ALAMAT);
 
                 HashMap<String,String> employees = new HashMap<>();
                 employees.put(DbContract.TAG_ID,id);
                 employees.put(DbContract.TAG_NAMA,name);
-                //employees.put(DbContract.TAG_ALAMAT,alamat);
-                //employees.put(DbContract.TAG_KECAMATAN,kecamatan);
-                //employees.put(DbContract.TAG_KELURAHAN,kelurahan);
-                //employees.put(DbContract.TAG_LATITUDE,latitude);
-                //employees.put(DbContract.TAG_LONGITUDE,longitude);
+                employees.put(DbContract.TAG_ALAMAT,alamat);
                 list.add(employees);
             }
         } catch (JSONException e) {
             e.printStackTrace();
         }
         ListAdapter adapter = new SimpleAdapter(
-                PengungsianActivity.this, list, R.layout.list_item,
-                new String[]{DbContract.TAG_ID, DbContract.TAG_NAMA},
-                new int[]{R.id.id, R.id.name});
+                getActivity(), list, R.layout.list_itemuser,
+                new String[]{DbContract.TAG_ID, DbContract.TAG_NAMA, DbContract.TAG_ALAMAT},
+                new int[]{R.id.id, R.id.name, R.id.alamat});
 
         listView.setAdapter(adapter);
     }
@@ -76,7 +83,7 @@ public class PengungsianActivity extends AppCompatActivity implements ListView.O
             @Override
             protected void onPreExecute() {
                 super.onPreExecute();
-                loading = ProgressDialog.show(PengungsianActivity.this,"Mengambil Data","Mohon Tunggu...",false,false);
+                loading = ProgressDialog.show(getActivity(),"Mengambil Data","Mohon Tunggu...",false,false);
             }
 
             @Override
@@ -98,17 +105,13 @@ public class PengungsianActivity extends AppCompatActivity implements ListView.O
         gj.execute();
     }
 
-    @Override
+
+
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Intent intent = new Intent(this, TampilLokasiActivity.class);
+        Intent intent = new Intent(getActivity(), UserDetailPosko.class);
         HashMap<String,String> map =(HashMap)parent.getItemAtPosition(position);
         String empId = map.get(DbContract.TAG_ID).toString();
         intent.putExtra(DbContract.EMP_ID,empId);
-        startActivity(intent);
-    }
-
-    public void TambahPosko(View view) {
-        Intent intent = new Intent(PengungsianActivity.this, TambahdataActivity.class);
         startActivity(intent);
     }
 }

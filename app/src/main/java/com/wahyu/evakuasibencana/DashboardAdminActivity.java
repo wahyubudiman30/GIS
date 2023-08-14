@@ -29,13 +29,14 @@ public class DashboardAdminActivity extends AppCompatActivity {
         startActivity(profil);
     }
 
-    public void Peta(View view) {
-        Intent maps = new Intent(DashboardAdminActivity.this, MapsAdminActivity.class);
-        startActivity(maps);
+
+    public void Setting(View view) {
+        Intent setting = new Intent(DashboardAdminActivity.this, SettingtActivity.class);
+        startActivity(setting);
     }
 
-    public void Contact(View view) {
-        Intent contact = new Intent(DashboardAdminActivity.this, ContactActivity.class);
+    public void Maps(View view) {
+        Intent contact = new Intent(DashboardAdminActivity.this, MapsAdminActivity.class);
         startActivity(contact);
     }
 }

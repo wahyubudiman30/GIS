@@ -14,10 +14,10 @@
         android:theme="@style/Theme.EvakuasiBencana"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".ContactActivity"
+            android:name=".UserDetailPosko"
             android:exported="false" />
         <activity
-            android:name=".TampilLokasiUserActivity"
+            android:name=".SettingtActivity"
             android:exported="false" />
         <activity
             android:name=".DashboardUserActivity"

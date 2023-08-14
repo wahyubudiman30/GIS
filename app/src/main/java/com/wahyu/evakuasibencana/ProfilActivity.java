@@ -155,6 +155,9 @@ public class ProfilActivity extends AppCompatActivity {
         Toast.makeText(this, massage, Toast.LENGTH_SHORT).show();
     }
 
+    public void Ubahakun(View view) {
+    }
+
     public class GetUserDataRequest extends AsyncTask<Void,Void,Void>{
 
         @Override
