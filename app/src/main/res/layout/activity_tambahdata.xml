@@ -29,7 +29,7 @@
     <LinearLayout
         android:id="@+id/ly7"
         android:layout_width="match_parent"
-        android:layout_height="520dp"
+        android:layout_height="550dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="25dp"
@@ -73,17 +73,6 @@
             android:minHeight="48dp" />
 
         <EditText
-            android:id="@+id/TxLatitude"
-            android:layout_width="330dp"
-            android:layout_height="45dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:ems="10"
-            android:hint="Latitude"
-            android:inputType="textPersonName"
-            android:minHeight="48dp" />
-
-        <EditText
             android:id="@+id/TxKelurahan"
             android:layout_width="330dp"
             android:layout_height="45dp"
@@ -106,6 +95,17 @@
             android:minHeight="48dp" />
 
         <EditText
+            android:id="@+id/TxLatitude"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Latitude"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <EditText
             android:id="@+id/TxLongitude"
             android:layout_width="330dp"
             android:layout_height="45dp"
@@ -116,6 +116,14 @@
             android:inputType="textPersonName"
             android:minHeight="48dp" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Cari di Peta" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -123,7 +131,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_below="@id/ly7"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="70dp"
         android:gravity="center"
         android:orientation="horizontal">
 

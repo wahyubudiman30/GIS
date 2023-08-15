@@ -39,208 +39,225 @@
     <LinearLayout
         android:id="@+id/lyd2"
         android:layout_width="match_parent"
-        android:layout_height="555dp"
+        android:layout_height="560dp"
         android:layout_below="@id/lyd1"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/ktkedprofl"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="16dp"
-            android:text="DETAIL LOKASI"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/idlok"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="16dp"
-            android:text="ID"
-            android:textColor="@color/black"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/TampilID"
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="43dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textColor="#000000"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp" />
+            android:layout_height="554dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="3dp"
+            app:cardCornerRadius="25dp">
 
-        <TextView
-            android:id="@+id/textView59"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="16dp"
-            android:text="Nama Lokasi"
-            android:textColor="@color/black"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/TampilNama"
-            android:layout_width="match_parent"
-            android:layout_height="43dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textColor="#000000"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="DETAIL LOKASI"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView60"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="16dp"
-            android:text="Alamat"
-            android:textColor="@color/black"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/idlok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="ID"
+                    android:textColor="@color/black"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/TampilAlamat"
-            android:layout_width="match_parent"
-            android:layout_height="43dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textColor="#000000"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/TampilID"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/textView61"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="16dp"
-            android:text="Kelurahan"
-            android:textColor="@color/black"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Nama Lokasi"
+                    android:textColor="@color/black"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/TampilKelurahan"
-            android:layout_width="match_parent"
-            android:layout_height="43dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textColor="#000000"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/TampilNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/textView62"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="16dp"
-            android:text="Kecamatan"
-            android:textColor="@color/black"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Kelurahan"
+                    android:textColor="@color/black"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/TampilKecamatan"
-            android:layout_width="match_parent"
-            android:layout_height="43dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textColor="#000000"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/TampilKelurahan"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/textView63"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="16dp"
-            android:text="Latitude"
-            android:textColor="@color/black"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Kecamatan"
+                    android:textColor="@color/black"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/TampilLatitude"
-            android:layout_width="match_parent"
-            android:layout_height="43dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textColor="#000000"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/TampilKecamatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/textView64"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="16dp"
-            android:text="Longitude"
-            android:textColor="@color/black"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Alamat"
+                    android:textColor="@color/black"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/TampilLongitude"
-            android:layout_width="match_parent"
-            android:layout_height="43dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textColor="#000000"
-            android:textColorHint="#FFFFFF"
-            android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/TampilAlamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Latitude"
+                    android:textColor="@color/black"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/TampilLatitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Longitude"
+                    android:textColor="@color/black"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/TampilLongitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 
