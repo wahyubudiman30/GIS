@@ -42,7 +42,7 @@ public class UbahprofilActivity extends AppCompatActivity {
         id = intent.getStringExtra(DbContract.EMP_ID_ADM);
 
         EdID = (EditText) findViewById(R.id.TxID);
-        EdNama = (EditText) findViewById(R.id.TxEmail);
+        EdNama = (EditText) findViewById(R.id.TxNamaAdmin);
         EdEmail = (EditText) findViewById(R.id.TxEmail);
         EdTTL = (EditText) findViewById(R.id.TxTtlAdmin);
         EdJK = (EditText) findViewById(R.id.TxJenisKelamin);
@@ -78,7 +78,7 @@ public class UbahprofilActivity extends AppCompatActivity {
             @Override
             protected String doInBackground(Void... params) {
                 RequestHandler rh = new RequestHandler();
-                String s = rh.sendGetRequestParam(DbContract.URL_GET_EMP_ADM,id);
+                String s = rh.sendGetRequestParam(DbContract.SERVER_READ_URL,id);
                 return s;
             }
         }
@@ -91,7 +91,7 @@ public class UbahprofilActivity extends AppCompatActivity {
             JSONObject jsonObject = new JSONObject(json);
             JSONArray result = jsonObject.getJSONArray(DbContract.TAG_JSON_ARRAY);
             JSONObject c = result.getJSONObject(0);
-            String nama = c.getString(DbContract.TAG_NAMA_ADM);
+            String username = c.getString(DbContract.TAG_NAMA_ADM);
             String email = c.getString(DbContract.TAG_EMAIL_ADM);
             String ttl = c.getString(DbContract.TAG_TTL_ADM);
             String jk = c.getString(DbContract.TAG_JK_ADM);
@@ -99,7 +99,7 @@ public class UbahprofilActivity extends AppCompatActivity {
             String jabatan = c.getString(DbContract.TAG_JABATAN_ADM);
             String alamat = c.getString(DbContract.TAG_ALAMAT_ADM);
 
-            EdNama.setText(nama);
+            EdNama.setText(username);
             EdEmail.setText(email);
             EdTTL.setText(ttl);
             EdJK.setText(jk);
@@ -113,7 +113,7 @@ public class UbahprofilActivity extends AppCompatActivity {
     }
 
     private void simpanEmployee(){
-        final String name = EdNama.getText().toString().trim();
+        final String username = EdNama.getText().toString().trim();
         final String email = EdEmail.getText().toString().trim();
         final String ttl = EdTTL.getText().toString().trim();
         final String jk = EdJK.getText().toString().trim();
@@ -142,7 +142,7 @@ public class UbahprofilActivity extends AppCompatActivity {
             protected String doInBackground(Void... params) {
                 HashMap<String,String> hashMap = new HashMap<>();
                 hashMap.put(DbContract.KEY_EMP_ID_ADM,id);
-                hashMap.put(DbContract.KEY_EMP_NAMA_ADM,name);
+                hashMap.put(DbContract.KEY_EMP_NAMA_ADM,username);
                 hashMap.put(DbContract.KEY_EMP_EMAIL_ADM,email);
                 hashMap.put(DbContract.KEY_EMP_TTL_ADM,ttl);
                 hashMap.put(DbContract.KEY_EMP_JK_ADM,jk);
@@ -161,6 +161,8 @@ public class UbahprofilActivity extends AppCompatActivity {
         simpanEmployee ue = new simpanEmployee();
         ue.execute();
     }
+
+
 
     public void onClick(View v) {
         if(v == BtnSimpan){

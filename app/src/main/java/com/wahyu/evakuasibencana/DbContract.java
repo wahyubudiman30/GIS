@@ -2,23 +2,20 @@ package com.wahyu.evakuasibencana;
 
 public class DbContract {
 
-    public static final String ROOT_URL = "http://192.168.1.13/ApiEvakuasiBencana/";
-    public static String SERVER_LOGIN_URL = ROOT_URL+"checkLogin.php";
-    public static String SERVER_REGISTER_URL = ROOT_URL+"createData.php";
-    public static String SERVER_READ_URL = ROOT_URL+"lihatProfil.php";
-    public static String URL_READ = ROOT_URL+"read_detail.php";
-    public static String URL_EDIT = ROOT_URL+"edit_detail.php";
-    public static String URL_UPLOAD = ROOT_URL+"upload.php";
-    public static String URL_RESETPASS = ROOT_URL+"resetpass.php";
+    public static final String ROOT_URL = "http://192.168.1.23/ApiEvakuasiBencana/";
 
+    public static String SERVER_LOGIN_URL = ROOT_URL+"checkLogin.php";
+    public static String SERVER_REGISTER_URL = ROOT_URL+"tambahAdmin.php";
+    public static String SERVER_READ_URL = ROOT_URL+"tampilAdmin.php";
+    public static String URL_RESETPASS = ROOT_URL+"resetpass.php";
+    public static String URL_UPDATE_EMP_ADM = ROOT_URL+"ubahAdminn.php";//updatebiodata
+    public static String TAMPIL_DSB = ROOT_URL+"profil.php?id=";
+//posko
     public static String URL_ADD= ROOT_URL+"tambahLokasi.php";
     public static String URL_GET_ALL = ROOT_URL+"tampilSemuaLokasi.php";
     public static String URL_GET_EMP = ROOT_URL+"tampilLokasi.php?id=";
     public static String URL_UPDATE_EMP = ROOT_URL+"ubahLokasi.php";
     public static String URL_DELETE_EMP = ROOT_URL+"hapusLokasi.php?id=";
-
-    public static final String URL_GET_EMP_ADM = "http://192.168.1.27/ApiEvakuasiBencana/tampilAdmin.php?id=";
-    public static final String URL_UPDATE_EMP_ADM = "http://192.168.1.27/ApiEvakuasiBencana/ubahAdmin.php";
 
     public static final String KEY_EMP_ID = "id";
     public static final String KEY_EMP_NAMA = "nama_lokasi";
@@ -60,3 +57,7 @@ public class DbContract {
     public static final String EMP_ID_ADM = "emp_id_adm";
 
 }
+
+    //public static String URL_READ = ROOT_URL+"read_detail.php";
+    //public static String URL_EDIT = ROOT_URL+"edit_detail.php";
+    //public static String URL_UPLOAD = ROOT_URL+"upload.php";

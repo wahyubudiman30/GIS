@@ -57,6 +57,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_marginStart="5dp"
+                        android:layout_marginTop="2dp"
                         android:layout_toStartOf="@+id/imageView32"
                         android:layout_toEndOf="@+id/id"
                         android:text="Nama Lokasi"

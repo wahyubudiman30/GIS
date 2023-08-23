@@ -11,6 +11,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -155,8 +156,6 @@ public class ProfilActivity extends AppCompatActivity {
         Toast.makeText(this, massage, Toast.LENGTH_SHORT).show();
     }
 
-    public void Ubahakun(View view) {
-    }
 
     public class GetUserDataRequest extends AsyncTask<Void,Void,Void>{
 
@@ -218,7 +217,10 @@ public class ProfilActivity extends AppCompatActivity {
     }
 
     public void EditProfil(View view) {
-        Intent intent= new Intent(ProfilActivity.this, UbahprofilActivity.class);
+        Intent intent = new Intent(ProfilActivity.this, UbahprofilActivity.class);
         startActivity(intent);
     }
+
+
+
 }

@@ -14,6 +14,9 @@
         android:theme="@style/Theme.EvakuasiBencana"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".MapsAdminActivity"
+            android:exported="false" />
+        <activity
             android:name=".UserDetailPosko"
             android:exported="false" />
         <activity

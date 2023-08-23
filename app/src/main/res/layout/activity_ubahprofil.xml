@@ -81,7 +81,7 @@
 
                 <EditText
                     android:id="@+id/TxID"
-                    android:layout_width="320dp"
+                    android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:layout_marginStart="1dp"
@@ -94,7 +94,7 @@
 
                 <EditText
                     android:id="@+id/TxNamaAdmin"
-                    android:layout_width="320dp"
+                    android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:layout_marginStart="1dp"
@@ -107,7 +107,7 @@
 
                 <EditText
                     android:id="@+id/TxEmail"
-                    android:layout_width="320dp"
+                    android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:layout_marginStart="1dp"
@@ -120,7 +120,7 @@
 
                 <EditText
                     android:id="@+id/TxTtlAdmin"
-                    android:layout_width="320dp"
+                    android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:layout_marginStart="1dp"
@@ -133,7 +133,7 @@
 
                 <EditText
                     android:id="@+id/TxJabatan"
-                    android:layout_width="320dp"
+                    android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:layout_marginStart="1dp"
@@ -146,7 +146,7 @@
 
                 <EditText
                     android:id="@+id/TxTelepon"
-                    android:layout_width="320dp"
+                    android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:layout_marginStart="1dp"
@@ -160,7 +160,7 @@
 
                 <EditText
                     android:id="@+id/TxJenisKelamin"
-                    android:layout_width="320dp"
+                    android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:layout_marginStart="1dp"
@@ -173,7 +173,7 @@
 
                 <EditText
                     android:id="@+id/TxAlamat"
-                    android:layout_width="320dp"
+                    android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:layout_marginStart="1dp"

@@ -10,28 +10,57 @@
         android:id="@+id/lyc1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/cntct"
+        android:background="@drawable/bgttgapk"
+        android:gravity="center"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:id="@+id/lyc3"
+        <TextView
+            android:id="@+id/textView11"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:text="Sistem Informasi Geografis"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView48"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginStart="24dp"
-                android:text="TENTANG APLIKASI"
-                android:textColor="@color/white"
-                android:textSize="30sp"
-                android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Evakuasi Bencana"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
-        </LinearLayout>
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Versi"
+            android:textAlignment="center"
+            android:textColor="#E1E1E1"
+            android:textSize="14sp" />
 
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="(C) 2023 Wahyu Budiman"
+            android:textAlignment="center"
+            android:textColor="#E1E1E1"
+            android:textSize="14sp" />
     </LinearLayout>
 
 
